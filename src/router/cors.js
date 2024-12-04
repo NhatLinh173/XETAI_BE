@@ -8,6 +8,8 @@ const whitelist = [
   "https://fa-24-sep-490-xetai-fe.vercel.app",
   "http://localhost:3000",
   "http://localhost:3005",
+  "https://xetai-fe.vercel.app/",
+  "https://xetai-be.vercel.app/",
   "https://localhost:3443",
   "http://localhost:3006",
   "https://fa-24-sep-490-xetai-fe.vercel.app/api/user/google/callback",
