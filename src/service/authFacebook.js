@@ -14,7 +14,7 @@ passport.use(
     {
       clientID: process.env.FACEBOOK_APP_ID,
       clientSecret: process.env.FACEBOOK_APP_SECRET,
-      callbackURL: "http://https://xetai-be.vercel.app//auth/facebook/callback",
+      callbackURL: "https://xetai-be.vercel.app//auth/facebook/callback",
       profileFields: ["id", "emails", "name", "photos"],
     },
     async (accessToken, refreshToken, profile, done) => {
